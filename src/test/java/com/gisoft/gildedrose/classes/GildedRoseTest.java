@@ -23,6 +23,7 @@ public class GildedRoseTest {
 
   @Test
   public void testNormalItemDoubleDecrementQuality() {
+    System.out.println("testNormalItemDoubleDecrementQuality");
     GildedRose.items = new ArrayList<>();
     int inputQuality = 20;
     Item item = new Item("+5 Dexterity Vest", 0, inputQuality);
@@ -31,12 +32,17 @@ public class GildedRoseTest {
     GildedRose.updateQuality();
 
     int expectedQuality = inputQuality - 2;
+      
+    System.out.println("inputQuality: " + inputQuality);
+    System.out.println("expectedQuality: " + expectedQuality);
+    System.out.println("new Quality: " +item.getQuality());
 
     assertEquals(expectedQuality, item.getQuality());
   }
 
   @Test
   public void testNormalItemZeroQuality() {
+    System.out.println("testNormalItemZeroQuality");
     GildedRose.items = new ArrayList<>();
     int inputQuality = 0;
     Item item = new Item("+5 Dexterity Vest", 0, inputQuality);
@@ -46,6 +52,11 @@ public class GildedRoseTest {
 
     int expectedQuality = 0;
 
+    System.out.println("inputQuality: " + inputQuality);
+    System.out.println("expectedQuality: " + expectedQuality);
+    System.out.println("new Quality: " +item.getQuality());
+
+    
     assertEquals(expectedQuality, item.getQuality());
   }
 
@@ -87,6 +98,10 @@ public class GildedRoseTest {
     GildedRose.updateQuality();
 
     int expectedQuality = inputQuality + 1;
+    
+    System.out.println("inputQuality: " + inputQuality);
+    System.out.println("expectedQuality: " + expectedQuality);
+    System.out.println("new Quality: " +item.getQuality());
     
     assertEquals(expectedQuality, item.getQuality());
   }
@@ -133,7 +148,7 @@ public class GildedRoseTest {
     assertEquals(expectedQuality, item.getQuality());
   }
 
-  /* Tests for the new requirement
+  // Tests for the new requirement
   @Test
   public void testConjuredDecrementQuality() {
     GildedRose.items = new ArrayList<>();
@@ -204,5 +219,5 @@ public class GildedRoseTest {
 
     assertEquals(expectedQuality, item.getQuality());
   }
-  */
+  
 }
