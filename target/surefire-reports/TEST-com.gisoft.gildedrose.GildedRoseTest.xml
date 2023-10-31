@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="com.gisoft.gildedrose.GildedRoseTest" time="0.023" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="com.gisoft.gildedrose.GildedRoseTest" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+8-LTS-149"/>
@@ -65,18 +65,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testItemSufurasLegendary" time="0.017"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testItemSufurasLegendary" time="0.012"/>
   <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredAlternativeQualityWhenSellInZero" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemZeroQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemZeroQuality" time="0.009"/>
   <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemDoubleDecrementQuality" time="0"/>
   <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testBackstageTripleIncrementQuality" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredNonZeroQuality" time="0.001"/>
-  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemDecrementQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredNonZeroQuality" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemDecrementQuality" time="0"/>
   <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testBackstageZeroQuality" time="0"/>
   <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testbackstageIncrementsQuality" time="0"/>
   <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredQualityWhenSellInZero" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredDecrementQuality" time="0.001"/>
-  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testbackstageDoubleIncrementQuality" time="0.001"/>
-  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testItemNoGreaterThan50" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredDecrementQuality" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testbackstageDoubleIncrementQuality" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testItemNoGreaterThan50" time="0"/>
   <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredAlternativeNonZeroQuality" time="0"/>
 </testsuite>

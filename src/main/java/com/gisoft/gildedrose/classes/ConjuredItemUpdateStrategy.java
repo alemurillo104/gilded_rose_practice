@@ -20,6 +20,5 @@ public class ConjuredItemUpdateStrategy implements ItemUpdateStrategy{
                 item.setQuality(item.getQuality() - 2);    
             }
         }
-    }
-    
+    } 
 }

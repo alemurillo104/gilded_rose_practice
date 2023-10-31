@@ -17,6 +17,5 @@ public class BackstagePassesItemUpdateStrategy implements ItemUpdateStrategy{
         if (item.getSellIn() < 0) {
             item.setQuality(0);
         }
-    }
-    
+    }  
 }

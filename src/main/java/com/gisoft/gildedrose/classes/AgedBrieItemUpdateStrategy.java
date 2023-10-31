@@ -1,4 +1,3 @@
-
 package com.gisoft.gildedrose.classes;
 
 public class AgedBrieItemUpdateStrategy implements ItemUpdateStrategy{
@@ -12,6 +11,5 @@ public class AgedBrieItemUpdateStrategy implements ItemUpdateStrategy{
         if (item.getSellIn() < 0 && item.getQuality() < 50) {
             item.setQuality(item.getQuality() + 1);
         }
-    }
-    
+    }    
 }
