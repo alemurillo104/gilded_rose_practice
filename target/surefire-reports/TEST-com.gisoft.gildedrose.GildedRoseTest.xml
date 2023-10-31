@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="com.gisoft.gildedrose.classes.GildedRoseTest" time="0.021" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="com.gisoft.gildedrose.GildedRoseTest" time="0.023" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+8-LTS-149"/>
@@ -14,7 +14,7 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="BO"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="com.gisoft.gildedrose.classes.GildedRoseTest"/>
+    <property name="test" value="com.gisoft.gildedrose.GildedRoseTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="D:\Documentos\Documents\NetBeansProjects\GildedRose"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -47,7 +47,7 @@
     <property name="java.class.path" value="C:\Program Files\NetBeans-16\netbeans\java\maven\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.gisoft.gildedrose.classes.GildedRoseTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-16\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.gisoft.gildedrose.GildedRoseTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-16\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,18 +65,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testItemSufurasLegendary" time="0.014"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testConjuredAlternativeQualityWhenSellInZero" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testNormalItemZeroQuality" time="0.002"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testNormalItemDoubleDecrementQuality" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testBackstageTripleIncrementQuality" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testConjuredNonZeroQuality" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testNormalItemDecrementQuality" time="0.001"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testBackstageZeroQuality" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testbackstageIncrementsQuality" time="0.001"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testConjuredQualityWhenSellInZero" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testConjuredDecrementQuality" time="0.001"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testbackstageDoubleIncrementQuality" time="0"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testItemNoGreaterThan50" time="0.001"/>
-  <testcase classname="com.gisoft.gildedrose.classes.GildedRoseTest" name="testConjuredAlternativeNonZeroQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testItemSufurasLegendary" time="0.017"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredAlternativeQualityWhenSellInZero" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemZeroQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemDoubleDecrementQuality" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testBackstageTripleIncrementQuality" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredNonZeroQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testNormalItemDecrementQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testBackstageZeroQuality" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testbackstageIncrementsQuality" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredQualityWhenSellInZero" time="0"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredDecrementQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testbackstageDoubleIncrementQuality" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testItemNoGreaterThan50" time="0.001"/>
+  <testcase classname="com.gisoft.gildedrose.GildedRoseTest" name="testConjuredAlternativeNonZeroQuality" time="0"/>
 </testsuite>

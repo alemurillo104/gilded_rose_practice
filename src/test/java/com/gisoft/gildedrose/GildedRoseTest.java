@@ -1,5 +1,6 @@
-package com.gisoft.gildedrose.classes;
+package com.gisoft.gildedrose;
 
+import com.gisoft.gildedrose.classes.Item;
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
@@ -32,11 +33,7 @@ public class GildedRoseTest {
     GildedRose.updateQuality();
 
     int expectedQuality = inputQuality - 2;
-      
-    System.out.println("inputQuality: " + inputQuality);
-    System.out.println("expectedQuality: " + expectedQuality);
-    System.out.println("new Quality: " +item.getQuality());
-
+  
     assertEquals(expectedQuality, item.getQuality());
   }
 
@@ -50,13 +47,8 @@ public class GildedRoseTest {
     GildedRose.items.add(item);
     GildedRose.updateQuality();
 
-    int expectedQuality = 0;
-
-    System.out.println("inputQuality: " + inputQuality);
-    System.out.println("expectedQuality: " + expectedQuality);
-    System.out.println("new Quality: " +item.getQuality());
-
-    
+    int expectedQuality = 0;   
+      
     assertEquals(expectedQuality, item.getQuality());
   }
 
@@ -98,10 +90,6 @@ public class GildedRoseTest {
     GildedRose.updateQuality();
 
     int expectedQuality = inputQuality + 1;
-    
-    System.out.println("inputQuality: " + inputQuality);
-    System.out.println("expectedQuality: " + expectedQuality);
-    System.out.println("new Quality: " +item.getQuality());
     
     assertEquals(expectedQuality, item.getQuality());
   }
@@ -159,7 +147,7 @@ public class GildedRoseTest {
     GildedRose.updateQuality();
 
     int expectedQuality = inputQuality - 2;
-
+    
     assertEquals(expectedQuality, item.getQuality());
   }
 
@@ -216,7 +204,7 @@ public class GildedRoseTest {
     GildedRose.updateQuality();
 
     int expectedQuality = 0;
-
+    
     assertEquals(expectedQuality, item.getQuality());
   }
   
